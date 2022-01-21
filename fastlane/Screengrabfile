@@ -1,7 +1,8 @@
 app_package_name("com.designpavilion.lib.android_screenshotter") # e.g. com.krausefx.app
 app_apk_path("app/build/outputs/apk/debug/app-debug.apk")
 tests_apk_path("app/build/outputs/apk/debug/app-debug.apk")
-locales("in,fr,of,uk,it,es,pt-PT,pt-BR,nl,pl,id,tr")
+#locales("in,fr,of,uk,it,es,pt-PT,pt-BR,nl,pl,id,tr")
+locales("en,fr")
 clear_previous_screenshots(true)
-
+use_tests_in_packages("com.designpavilion.lib.android_screenshotter")
 

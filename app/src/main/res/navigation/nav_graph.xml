@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/screenOneFragment">
+
+    <fragment
+        android:id="@+id/screenOneFragment"
+        android:name="com.designpavilion.lib.android_screenshotter.ScreenOneFragment"
+        android:label="ScreenOneFragment">
+        <action
+            android:id="@+id/action_screenOneFragment_to_screenTwoFragment"
+            app:destination="@+id/screenTwoFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <!--<argument
+            android:name="some_args_name"
+            android:defaultValue="default_value"
+            app:argType="String" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/screenTwoFragment"
+        android:name="com.designpavilion.lib.android_screenshotter.ScreenTwoFragment"
+        android:label="ScreenTwoFragment">
+        <action
+            android:id="@+id/action_screenTwoFragment_to_screenThreeFragment"
+            app:destination="@id/screenThreeFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenThreeFragment"
+        android:name="com.designpavilion.lib.android_screenshotter.ScreenThreeFragment"
+        android:label="ScreenThreeFragment" />
+</navigation>

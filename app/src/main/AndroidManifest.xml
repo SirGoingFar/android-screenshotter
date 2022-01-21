@@ -28,7 +28,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Androidscreenshotter">
         <activity
-            android:name=".MainActivity"
+            android:name=".FragmentContainerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

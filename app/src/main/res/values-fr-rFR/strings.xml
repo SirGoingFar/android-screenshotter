@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">android-screenshotter-French</string>
     <string name="text_hello_world">Bonjour le monde!</string>
+    <string name="text_two">Deux</string>
+    <string name="text_three">Trois</string>
+    <string name="text_one">Une</string>
+    <string name="text_next">Suivante</string>
 </resources>
