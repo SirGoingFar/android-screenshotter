@@ -5,11 +5,42 @@
     "storage_bucket": "android-screenshotter.appspot.com"
   },
   "client": [
+
     {
       "client_info": {
         "mobilesdk_app_id": "1:1076751052127:android:0d41093cf74c8be1341aea",
         "android_client_info": {
           "package_name": "com.designpavilion.lib.android_screenshotter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076751052127-pe06n9el674jpd2fan1ffkqu7q5gl4v8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoiqzYlMVBB0ieQ5WaKHD5oC7et77nUIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076751052127-pe06n9el674jpd2fan1ffkqu7q5gl4v8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076751052127:android:ee725e8106b6ae26341aea",
+        "android_client_info": {
+          "package_name": "com.designpavilion.lib.android_screenshotter.debug"
         }
       },
       "oauth_client": [
