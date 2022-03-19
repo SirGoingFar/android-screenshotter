@@ -1,10 +1,10 @@
-# android-screenshotter
+# How to setup native-lib.cpp file
 
-
-### ---- native-lib.cpp looks like this ------
 - Replace necessary Firebase secrets in this snippet and copy to native-lib.cpp file
 - Position native-lib.cpp in directory /src/main/kotlin/cpp (i.e. the file is referenced as /src/main/kotlin/cpp/native-lib.cpp)
 - Read more here: https://medium.com/nerd-for-tech/secure-your-firebases-google-services-json-file-in-android-16680f8e5fb4 & https://mittalkartik1.medium.com/secret-management-in-android-c2a44f23fc59
+
+NB: The native-lib.cpp MUST be gitignored as it should not be commited to Git - it contains your Firebase secrets
 
 ///////// SNIPPET STARTS //////////
 
