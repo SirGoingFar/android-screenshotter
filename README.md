@@ -2,11 +2,11 @@
 
 
 ### ---- native-lib.cpp looks like this ------
-- Replace necessary Firebase secrets in this snippet
-- Position native-lib.cpp inside
+- Replace necessary Firebase secrets in this snippet and copy to native-lib.cpp file
+- Position native-lib.cpp in directory /src/main/kotlin/cpp (i.e. the file is referenced as /src/main/kotlin/cpp/native-lib.cpp)
 - Read more here: https://medium.com/nerd-for-tech/secure-your-firebases-google-services-json-file-in-android-16680f8e5fb4 & https://mittalkartik1.medium.com/secret-management-in-android-c2a44f23fc59
 
-///////// START //////////
+///////// SNIPPET STARTS //////////
 
 #include <jni.h>
 #include <string>
@@ -36,4 +36,4 @@ extern "C" JNIEXPORT jstring JNICALL Java_com_designpavilion_lib_androidscreensh
     return env->NewStringUTF(value.c_str());
 }
   
-///////// END //////////
+///////// SNIPPET ENDS //////////
