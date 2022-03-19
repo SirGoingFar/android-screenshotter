@@ -1,13 +1,11 @@
-package com.designpavilion.lib.android_screenshotter
+package com.designpavilion.lib.androidscreenshotter
 
 import android.os.Bundle
 import android.view.View
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.UiController
 import androidx.test.espresso.ViewAction
-import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.matcher.ViewMatchers.isRoot
-import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import org.junit.Before
 import org.junit.Rule

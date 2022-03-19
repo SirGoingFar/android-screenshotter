@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/screenOneFragment"
-        android:name="com.designpavilion.lib.android_screenshotter.ScreenOneFragment"
+        android:name="com.designpavilion.lib.androidscreenshotter.ScreenOneFragment"
         android:label="ScreenOneFragment">
         <action
             android:id="@+id/action_screenOneFragment_to_screenTwoFragment"
@@ -21,7 +21,7 @@
     </fragment>
     <fragment
         android:id="@+id/screenTwoFragment"
-        android:name="com.designpavilion.lib.android_screenshotter.ScreenTwoFragment"
+        android:name="com.designpavilion.lib.androidscreenshotter.ScreenTwoFragment"
         android:label="ScreenTwoFragment">
         <action
             android:id="@+id/action_screenTwoFragment_to_screenThreeFragment"
@@ -32,6 +32,6 @@
     </fragment>
     <fragment
         android:id="@+id/screenThreeFragment"
-        android:name="com.designpavilion.lib.android_screenshotter.ScreenThreeFragment"
+        android:name="com.designpavilion.lib.androidscreenshotter.ScreenThreeFragment"
         android:label="ScreenThreeFragment" />
 </navigation>
