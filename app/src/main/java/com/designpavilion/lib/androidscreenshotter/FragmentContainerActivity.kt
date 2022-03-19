@@ -1,4 +1,4 @@
-package com.designpavilion.lib.android_screenshotter
+package com.designpavilion.lib.androidscreenshotter
 
 import android.os.Bundle
 import androidx.annotation.IdRes
@@ -24,7 +24,7 @@ open class FragmentContainerActivity : AppCompatActivity(R.layout.activity_fragm
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHost.navController
         val navGraph = navController.navInflater.inflate(navGraphId)
-        navGraph.startDestination = startDestinationId
+        navGraph.setStartDestination(startDestinationId)
         navController.setGraph(navGraph, intent.extras)
     }
 

@@ -1,4 +1,4 @@
-package com.designpavilion.lib.android_screenshotter.firebase
+package com.designpavilion.lib.androidscreenshotter.firebase
 
 import com.google.gson.annotations.SerializedName
 

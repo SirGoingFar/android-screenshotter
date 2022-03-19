@@ -1,4 +1,4 @@
-package com.designpavilion.lib.android_screenshotter
+package com.designpavilion.lib.androidscreenshotter
 
 import android.view.View
 import androidx.fragment.app.Fragment

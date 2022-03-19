@@ -1,15 +1,13 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'com.google.gms.google-services'
-//    id 'androidx.navigation.safeargs'
 }
 
 android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.designpavilion.lib.android_screenshotter"
+        applicationId "com.designpavilion.lib.androidscreenshotter"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -28,6 +26,13 @@ android {
             applicationIdSuffix ".debug"
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    ndkVersion '24.0.8215888'
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
         }
     }
 
@@ -62,7 +67,7 @@ dependencies {
     androidTestImplementation 'tools.fastlane:screengrab:2.1.1'
 
     //Navigation Component
-    implementation "androidx.navigation:navigation-fragment-ktx:2.3.5"
-    implementation "androidx.navigation:navigation-ui-ktx:2.3.5"
-    androidTestImplementation "androidx.navigation:navigation-testing:2.3.5"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.4.1"
+    implementation "androidx.navigation:navigation-ui-ktx:2.4.1"
+    androidTestImplementation "androidx.navigation:navigation-testing:2.4.1"
 }

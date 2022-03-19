@@ -1,4 +1,4 @@
-package com.designpavilion.lib.android_screenshotter
+package com.designpavilion.lib.androidscreenshotter
 
 import android.app.Activity
 import android.os.Bundle
@@ -43,4 +43,5 @@ class ScreenOneFragment : Fragment(R.layout.fragment_screen_one) {
             }
         }
     }
+
 }
